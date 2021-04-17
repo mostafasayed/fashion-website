@@ -1,0 +1,123 @@
+.categories-area {
+  background: #f7f7fd;
+}
+
+.categories-padding {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.category-image {
+  margin-bottom: 15px;
+}
+
+.category-title h5 {
+  font-family: poppins, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  color: #2b2b2b;
+}
+
+.category-title p {
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #57667e;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.new-arrival {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.new-arrival-title {
+  font-family: poppins, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 48px;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.popular-img {
+  overflow: hidden;
+  position: relative;
+}
+
+.popular-caption {
+  border: 1px solid #f6f8fe;
+  padding: 31px 0;
+}
+
+.rating i {
+  font-size: 15px;
+  color: #fbba42;
+}
+
+.favorit-items {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-image: none !important;
+  background-color: #9f78ff !important;
+  transition: all 0.4s ease;
+}
+
+.popular-img:hover {
+  transform: scale(1.1);
+}
+
+.carousel-caption:hover {
+  transform: translateY(-50px);
+  transform: scale(1.2);
+}
+
+.card-body:hover {
+  transform: scale(1.1);
+}
+
+.btn {
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  text-transform: capitalize;
+  padding: 27px 44px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+  display: inline-block;
+  line-height: 1;
+  -moz-user-select: none;
+  letter-spacing: 1px;
+  line-height: 0;
+  margin-bottom: 0;
+  cursor: pointer;
+  transition: color 0.4s linear;
+  position: relative;
+  z-index: 1;
+  border: 0;
+  overflow: hidden;
+  margin: 0;
+  border-radius: 4px;
+}
